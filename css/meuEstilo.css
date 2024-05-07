@@ -1,6 +1,7 @@
 body{
     background-color: darkgray;
-    background-image:url(../img/Fundo_ghost_Recoon.jpg) ;
+    background-image:url(../img/fundo_transparente.png) ;
+    background-size: 100%;
     background-repeat: no-repeat ;
 }
 header{
@@ -17,8 +18,8 @@ header{
 
 #menu ul li {display: inline;}
 
-logo{
-    background-color: rgb(81, 255, 0); 
+.logo{
+   /* background-color: rgb(81, 255, 0); */
 }
 
 #menu ul li a{
@@ -38,6 +39,7 @@ nav{
 
 main{
     /*background-color: green;*/
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 
@@ -54,6 +56,16 @@ footer {
 
 .cabeçalho{
     padding: 3%;
-}  */
+}  
 
-.rodape
+.rodape{
+
+}
+
+p{
+    color: #fff;
+}
+.titulos{
+
+    font-size: xx-large;
+}
