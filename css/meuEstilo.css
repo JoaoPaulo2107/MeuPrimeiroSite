@@ -29,10 +29,6 @@ header{
     border-bottom: 3px solid   #ededed;
 }
 
-
-
-
-
 nav{
     background-color: rgb(255, 255, 0);
 }
@@ -63,13 +59,15 @@ footer {
 }
 
 p{
-    line-height: 1.5;
+    line-height: 2.0;
     color: #fff;
     
 }
 .titulos{
 
     font-size: xx-large;
+    text-align: center;
+    font-weight:bold;
 }
 
 h1{
