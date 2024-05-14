@@ -18,8 +18,9 @@ header{
 
 #menu ul li {display: inline;}
 
-.logo{
-   /* background-color: rgb(81, 255, 0); */
+.logo img        {
+    width: 40%;
+  height: auto;
 }
 
 #menu ul li a{
@@ -50,17 +51,23 @@ footer {
     padding: 3%;
 } 
 
-.cabeçalho{
+.cabecalho{
     padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }  
+
 
 .rodape{
 
 }
 
 p{
-    line-height: 2.0;
+    line-height: 1.7;
     color: #fff;
+    text-align: justify;
     
 }
 .titulos{
@@ -68,6 +75,7 @@ p{
     font-size: xx-large;
     text-align: center;
     font-weight:bold;
+    margin-top: 2%;
 }
 
 h1{
@@ -76,4 +84,15 @@ h1{
 
 h2{
     font-size: 1,5em;
+}
+
+figure{
+text-align: center;
+display: inline-block;
+
+}
+
+.caixa-imagem{
+    text-align: center;
+    margin-top: 1%;
 }
